@@ -14,6 +14,11 @@ module.exports = {
         secondary: "#F43F5E", // Rose red
         accent: "#FACC15", // Yellow accent
         dark: "#0F172A", // Deep navy for premium feel
+         saffron: "#FF9933",
+        golden: "#FFD700",
+        cream: "#FAF3E0",
+        deepBrown: "#2C1810",
+        deeperBrown: "#1A0E08",
       },
       boxShadow: {
         premium: "0 4px 30px rgba(0, 0, 0, 0.2)", // Smooth shadow

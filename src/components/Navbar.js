@@ -44,6 +44,14 @@ export default function Navbar({ user, setUser }) {
           About
         </Link>
 
+        <Link
+          to="/knowledge"
+          className={`px-4 py-2 rounded-xl backdrop-blur-md transition-all font-semibold
+            ${isNight ? "bg-white/20 hover:bg-white/40" : "bg-yellow-100 hover:bg-yellow-200"}`}
+        >
+          Knowledge 📖
+        </Link>
+
         {user && (
           <Link
             to="/tracker"
@@ -99,6 +107,7 @@ export default function Navbar({ user, setUser }) {
           ${isNight ? "bg-indigo-900 text-white" : "bg-yellow-50 text-gray-800"} md:hidden`}>
           
           <Link to="/about" className="px-4 py-2 rounded-xl hover:bg-white/20 transition-all">About</Link>
+          <Link to="/knowledge" className="px-4 py-2 rounded-xl hover:bg-white/20 transition-all">Knowledge 📖</Link>
           {user && <Link to="/tracker" className="px-4 py-2 rounded-xl hover:bg-white/20 transition-all">Tracker</Link>}
           {user && (
             <button
