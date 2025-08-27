@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🌟 Custom Premium Styles */
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-purple-900 via-gray-900 to-black text-white font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-wide;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 rounded-full font-semibold bg-primary text-white shadow-premium hover:bg-purple-700 transition transform hover:scale-105;
+  }
+
+  .card {
+    @apply bg-white/10 backdrop-blur-lg p-6 rounded-2xl shadow-premium;
+  }
+
+  .input {
+    @apply w-full px-4 py-2 rounded-lg bg-white/10 text-white placeholder-gray-400 focus:ring-2 focus:ring-primary outline-none;
+  }
+}
