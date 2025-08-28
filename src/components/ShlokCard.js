@@ -7,7 +7,7 @@ const ShlokCard = ({ adhyay, shlok, explanation }) => {
     <div
       className={`relative p-8 m-6 max-w-4xl mx-auto rounded-2xl 
       shadow-[0_0_30px_rgba(255,215,0,0.25)] 
-      bg-gradient-to-br from-[#0d0d0d]/95 via-[#1a0f00]/90 to-[#000000]/95 
+      bg-gradient-to-br from-[#1a0f00] via-[#0d0d0d] to-[#000000] 
       border border-yellow-400/40
       transition-transform duration-300 hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(255,215,0,0.6)]`}
     >
